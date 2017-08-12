@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:background="@drawable/white_abstract_wallpapers"
+    >
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_weight="0.5"
+        android:layout_height="wrap_content"
+        android:hint="Destination"
+        android:textSize="20sp"
+        android:padding="20dp"
+        android:layout_margin="20px"
+        android:id="@+id/etDestination"
+        />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_weight="1"
+        android:layout_height="wrap_content"
+        android:text="Search"
+        android:textSize="20sp"
+        android:layout_margin="10px"
+        android:id="@+id/btnSearch"
+        android:onClick="SearchLocation"
+        android:background="@android:color/holo_blue_dark"
+        android:textColor="@android:color/white"
+        />
+
+</LinearLayout>
